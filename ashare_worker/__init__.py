@@ -1,0 +1,1 @@
+"""AShare Python worker package."""

@@ -1,0 +1,13 @@
+[project]
+name = "ashare-worker"
+version = "0.1.0"
+description = "Python data and report worker for AShare."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ashare-report = "ashare_worker.report_cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ashare_worker*"]
